@@ -1,7 +1,34 @@
-"*.exe" 
-"*.out" 
-"*.o" 
-".vscode/" 
-"*.log" 
-"__pycache__/" 
-"*.sqlite" 
+# 빌드 결과물
+*.exe
+*.out
+*.o
+*.obj
+
+# IDE 설정
+.vscode/
+.vs/
+*.user
+*.suo
+
+# 로그 파일
+*.log
+debug.log
+error.log
+info.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 데이터베이스 (SQLite는 포함, 다른 DB는 제외)
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
